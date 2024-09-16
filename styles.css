@@ -1,0 +1,42 @@
+h1 {
+    font-size:60px;
+    color: green;
+    background-color: #ccfff2;
+    font-family: cursive;
+    text-align:center;
+  }
+  
+  body{
+    background-color:#ffcccc;
+  }
+  
+  figure {
+    width: 60%;
+    border: 5px solid black;
+    margin-left:20%;
+    padding:5px;
+    font-family: Copperplate;
+    font-style: italic;
+    text-align:center;
+    background-color:white;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top:5px;
+  }
+  
+  p {
+    font-family: Verdana;
+    font-size: 20px;
+    padding:10px;
+  }
+  
+  p img{
+    float:left;
+    max-width:20%;
+    padding-right:10px;
+    padding-top:5px;
+  }
