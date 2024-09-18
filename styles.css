@@ -43,10 +43,9 @@ h1 {
 
   a{
     font-weight:bold;
-    color:hotpink;
+    color:seagreen;
   }
 
-  ul li a :hover{
-    color:forestgreen;
-    text-decoration:underline;
+  ul li a:hover {
+    text-decoration: underline;
   }
