@@ -46,15 +46,23 @@ h1 {
     color:green;
   }
 
-  ul {
+  nav ul {
     list-style: none;
     background-color:#ccfff2;
-    padding: 0;
+    padding:0;
     width: 200px;
-    border: 1px solid MediumVioletRed;
+    border: 2px solid white;
   }
+
   ul li a{
+    color:lightseagreen;
     text-decoration: none;
+    border-bottom: 1px solid white;
+    padding: 5px;
+  }
+ 
+  nav ul li:last-child {
+    border-bottom: none;
   }
 
   ul li a:hover{
