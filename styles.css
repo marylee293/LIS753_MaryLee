@@ -40,3 +40,12 @@ h1 {
     padding-right:10px;
     padding-top:5px;
   }
+
+  ul li a{
+    font-weight:bold;
+    color:hotpink;
+  }
+  ul li a :hover{
+    color:forestgreen;
+    text-decoration:underline;
+  }
