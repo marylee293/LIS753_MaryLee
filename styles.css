@@ -5,7 +5,20 @@ h1 {
     font-family: cursive;
     text-align:center;
   }
-  
+  h1#site-title{
+    font-size:60px;
+    color: green;
+    background-color: #ccfff2;
+    font-family: cursive;
+    text-align:center;
+  }
+  h1#article-title{
+    font-size:48px;
+    color: green;
+    background-color: #ccfff2;
+    font-family: cursive;
+    text-align:center;
+  }
   body{
     background-color:white;
   }
