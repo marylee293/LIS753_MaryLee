@@ -49,10 +49,12 @@ h1#article-title{
   font-size:48px;
   font-weight: 900;
   color: green;
+  padding-left:15%;
 }
 
 h2{
   font-weight: 900;
+  padding-left:50px;
 }
   
 figure {
@@ -73,10 +75,11 @@ figure img {
 }
 
 figure.main-image{
-margin-left:20%;
-background: #FED5ED;
-border-color: green;
-color:black;
+  margin-left:15%;
+  width:70%;
+  background: #FED5ED;
+  border-color: green;
+  color:black;
 }
 
 figure.section-image{
@@ -96,8 +99,9 @@ margin-right:20px;
 
 p {
   font-family: Verdana;
-  font-size: 20px;
-  padding:10px;
+  font-size: 16px;
+  padding-left:50px;
+  padding-right:50px;
 }
 
 p img{
