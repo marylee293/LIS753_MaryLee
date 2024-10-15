@@ -18,7 +18,7 @@ body{
       margin-bottom:25px;
     }
    
-   nav ul {
+  nav ul {
       display:flex;
       justify-content: center;
       gap:6vw;
@@ -56,7 +56,7 @@ body{
       font-size:52px;
       font-weight: 900;
       color: black;
-      padding-left:15%;
+      padding-left:10%;
       margin-bottom:20px;
     }
   
@@ -66,7 +66,7 @@ body{
   }
   
   figure {
-      width: 60%;
+      width: 50%;
       border: 5px solid black;
       padding:5px;
       font-family:'Times New Roman', Times, serif;
@@ -83,8 +83,8 @@ body{
     }
   
   figure.main-image{
-    margin-left:15%;
-    width:70%;
+    margin-left:10%;
+    width:80%;
     background: white;
     border-color: teal;
     color:black;
@@ -93,6 +93,8 @@ body{
   figure.section-image{
     margin-bottom:32px;
     max-width: 320px;
+    margin-left:200px;
+    margin-right:200px;
   }
   figure.section-image.odd{
     float:right;
@@ -103,14 +105,14 @@ body{
     margin-right:20px;
   }
     
-    p {
+  p {
       font-family: Verdana;
       font-size: 18px;
-      padding-left:50px;
-      padding-right:50px;
+      padding-left:200px;
+      padding-right:200px;
     }
     
-    p img{
+  p img{
       float:left;
       max-width:20%;
       padding-right:10px;
