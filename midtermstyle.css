@@ -108,6 +108,7 @@ figure.section-image {
   max-width: 200px;
   margin-left: 20%;
   margin-right: 20%;
+  border-color: teal;
 }
 
 figure.section-image.odd {
