@@ -10,9 +10,6 @@ a{
   }
    
 nav ul {
-  display:flex;
-  justify-content: center;
-  gap:6vw;
   list-style: none;
   background-color:green;
   padding-left:0;
@@ -20,6 +17,14 @@ nav ul {
   border-right:none;
   border-left:none;
 }
+
+@media all and (mid-width: 376px){
+  nav ul{
+    display:flex;
+  justify-content: center;
+  gap:6vw;
+  }
+} 
 
 nav ul li a {
   color:white;
@@ -52,6 +57,11 @@ h2{
   padding-left:50px;
 }
   
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 figure {
   width: 60%;
   border: 5px solid green;
@@ -63,8 +73,6 @@ figure {
 }
 
 figure img {
-  width: 100%;
-  height: auto;
   margin-bottom: 10px;
   margin-top:5px;
 }
@@ -77,9 +85,11 @@ figure.main-image{
   color:black;
 }
 
+@media all and (min-width:768px){
 figure.section-image{
 margin-bottom:32px;
 max-width: 320px;
+}
 }
 
 figure.section-image.odd{
