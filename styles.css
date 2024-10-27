@@ -18,7 +18,7 @@ nav ul {
   border-left:none;
 }
 
-@media all and (mid-width: 376px){
+@media all and (min-width: 376px){
   nav ul{
     display:flex;
   justify-content: center;
