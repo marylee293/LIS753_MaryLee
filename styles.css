@@ -111,3 +111,19 @@ p img{
   padding-right:10px;
   padding-top:5px;
 }
+
+#message {
+  background:#E9FFE4;
+  border:1px solid #178201;
+  padding: 20px 40px;
+  margin: 12px 0;
+  border-radius:4px;
+}
+#message button{
+  float:right;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
